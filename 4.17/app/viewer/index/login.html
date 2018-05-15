@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <link rel="icon" href="img/favicon.ico" type="img/x-icon"> -->
+	 <link rel="stylesheet" href="{CSS_PATH}/public.css">
+	 <link rel="stylesheet" href="{CSS_PATH}/login.css">
+	 <script src="{JS_PATH}/jquery.js"></script>
+	 <script src="{JS_PATH}/jquery.validate.js"></script>
+	 <script src="{JS_PATH}/getcode.js"></script>
+	 <!-- 通过src引进js文件 -->
+	 <script src="{JS_PATH}/rem.js"></script>
+</head>
+<body>
+	<div id="head">
+		<div class="head_item">
+		<a onclick="history.back()">
+			<p class="head_item_tubiao">&#xe608;</p>
+		</a>	
+		<p class="head_item_tubiao head_item_tubiao2">登录鲜花网</p>
+		<a href="index.php?m=index&c=index&a=init">
+			<p class=" head_item_tubiao1 ">&#xe607;</p>
+		</a>	
+		</div>
+	</div>
+	{include file="index/notice.html"}
+	<form action="index.php?m=index&c=members&a=checklogin" class="yangshi" method="post">
+		<input type="text" name="phone" class="login" placeholder="请输入手机号">
+		 <div class="icon">&#xe626;</div>
+		 <div class="icons">&#xe63c;</div>
+		<input type="text" class="pwd" name="password"placeholder="请输入密码">
+		<input type="submit" class="submits" value="登录" >
+	</form>
+	<div class="forget" >
+		<a href="index.php?m=index&c=members&a=getreg"class="forget_left">现在注册</a>
+		<!-- <div class="forget_right">忘记密码？</div> -->
+	</div>
+	<script>
+		var username1=localStorage.username1?localStorage.username1:"";
+		
+		if(username1!=="undefined"){
+			
+			location.href="index.php?m=index&c=members&a=autologin&username1="+username1;
+		}
+	</script>
+	
+</body>
+</html>

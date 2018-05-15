@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 563523 */
+  src: url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.eot');
+  src: url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.svg#iconfont') format('svg');
+}
+#head{
+	width: 100%;
+	height: 0.85rem;
+	background-color: #c10100;
+	position:absolute;
+	top:0
+}
+.head_item{
+	
+	width: 100%;
+	height: 0.85rem;
+	
+	
+
+}
+.head_item_tubiao{
+	font-size: 0.35rem;
+	float: left;
+	margin-left: 0.25rem;
+	margin-right:  2.24rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+
+}
+.head_item_tubiao2{
+	margin-right:  0;
+}
+.head_item_tubiao1{
+	margin-left: 0;
+	float: right;
+	font-size: 0.35rem;
+	margin-right:  0.34rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+}
+.bottom{
+	width: 100%;
+	height: 1.20rem;
+	border-top: 0.01rem solid #dcdcdc;
+	background-color: #eef3ef;
+	/* position: fixed;
+	position:fixed;
+	z-index:999;
+	left:0;
+	right:0;
+	bottom:0; */
+	/* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;*/
+   position:absolute;
+   bottom: 0;
+
+} 
+.content{
+	 overflow: auto;
+	 position:absolute;
+	top: 0.85rem;
+	bottom: 1.20rem;
+	width:100%;}
+.bottom_btn{
+	margin: 0.2rem;
+	width: 3.3rem;
+	height: 0.8rem;
+	border-radius: 0.1rem;
+	background-color: #c10100;
+	float: left;
+}
+.bottom_btn_wenzi{
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #fff;
+}
+.bottom_btn1{
+	margin-left: 0;
+	background-color: #25a9fb;
+}
+#product{
+	width: 100%;
+	
+}
+.product_shuliang{
+	width: 6.65rem;
+    margin: 0 auto;
+	border-bottom: 0.01rem solid #dcdcdc;
+	border-top:0.01rem solid #dcdcdc; 
+	padding: 0.04rem 0;
+	height: 0.57rem;
+	margin-bottom: 1.64rem;
+}
+.product_fangkuang{
+	width:1.02rem ;
+	height:0.44rem ;
+	border: 0.01rem solid #dcdcdc;
+	padding-left: 0.16rem;
+	line-height: 0.55rem;
+	font-size: 0.18rem;
+	color: #000000;
+	float: left;
+}
+.person{
+	width: 6.84rem;
+	margin: 0 auto;
+	
+}
+.person_top{
+	width: 100%;
+	height: 0.85rem;
+	padding-top: 0.20rem;
+	/* padding-bottom: 0.35rem; */
+}
+.name{
+	float: left;
+	font-size: 0.30rem;
+	color: #393939;
+	margin-right: 0.42rem;
+}
+.bixu{
+	float: left;
+	font-size: 0.30rem;
+	color: #939393;
+}
+.fangkuang{
+	width: 6.84rem;
+	height: 0.9rem;
+	border: 0.01rem solid #d7d7d5;
+	border-radius: 0.2rem;
+	padding-left: 0.22rem;
+	background-color: #ffffff;
+	color: #a5a5a5;
+	font-size: 0.24rem;
+	line-height: 0.9rem;
+
+}
+#city{
+	width: 1.69rem;
+	height: 0.61rem;
+	line-height: 0.61rem;
+	float: left;
+	margin-right: 0.1rem;
+	font-size: 0.16rem;
+}
+#city1{
+	width: 1.69rem;
+	height: 0.61rem;
+	line-height: 0.61rem;
+	float: left;
+	margin-right: 0.1rem;
+	font-size: 0.16rem;
+}
+#city2{
+	width: 1.69rem;
+	height: 0.61rem;
+	line-height: 0.61rem;
+	float: left;
+	font-size: 0.16rem;
+}

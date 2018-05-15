@@ -1,0 +1,74 @@
+{include file="index/header.html"}
+<body>
+	
+	<div id="head">
+		<div class="head_item">
+			<a onclick="history.back()">
+				<p class="head_item_tubiao head_item_tubiao3">&#xe608;</p>
+			</a>
+			<!-- <p class="head_item_tubiao head_item_tubiao1">&#xe68d;</p> -->
+			<a href="index.php?m=index&c=gouwuche&a=init">
+				<p class="head_item_tubiao ">&#xe66f;</p>
+			</a>
+			<p class="head_item_tubiao ">礼篮</p>
+			<a href="index.php?m=index&c=sousuo&a=init">
+				<p class="head_item_tubiao  ">&#xe6ac;</p>
+			</a>
+			<a href="index.php?m=index&c=index&a=init">
+				<p class="head_item_tubiao head_item_tubiao1 head_item_tubiao2 head_item_tubiao3">&#xe607;</p>
+			</a>
+		</div>
+	</div>
+	<div class="content" id="{$data}">
+		<div id="erji" class="{$cid}">
+			<div class="erji_item gid">
+			默认排序
+			
+			</div>
+			<div class="erji_item gprice">
+			价格
+			
+			</div>
+			<div class="erji_item erji_item2 gsort">
+			
+			排序</div>
+		</div> 
+		<div class="content1">
+			{foreach $arr $v}
+			<a href="index.php?m=index&c=flower&a=getcontent&id={$v['gid']}">
+			<div id="xianhua">
+				<div class="xianhua_left">
+					<img src="{$v['gthumb']}" alt="">
+				</div>
+				<div class="xianhua_right">
+					<div class="xianhua_right_title">
+						{$v['gname']}
+						
+					
+					</div>
+					<div class="xianhua_right_price">
+						<p class="xianhua_right_price1">{$v['gprice']}</p>
+						<p class="xianhua_right_price2">元</p>
+						<p class="xianhua_right_price3">{$v['goprice']}元</p>
+						<p class="xianhua_right_price4">{$v['gdiscount']}折</p>
+					</div>
+					<div class="xianhua_right_goumai">
+						<p class="xianhua_right_goumai_price" >
+							{$v['gsells']}人已经购买
+						</p>
+						<a href="index.php?m=index&c=hamper&a=getcontent&id={$v['gid']}">
+							<p class="xianhua_right_goumai_gouwuche" >&#xe66f;</p>
+						</a>
+					</div>	
+				</div>
+			</div>
+			</a>
+			{/foreach}
+		</div>
+	</div>
+
+<script src="{JS_PATH}/getthree.js"></script>
+
+
+</body>
+</html>

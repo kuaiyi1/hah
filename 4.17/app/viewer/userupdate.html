@@ -1,0 +1,81 @@
+{include file="header.html"}
+<style>
+   .filed img{
+     width: 50px;
+     height: 50px;
+   }
+</style>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>修改内容</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="index.php?m=admin&c=user&a=checkupdateuser">   
+     <input type="hidden" name="id" value="{$arr["uid"]}">
+      
+      <div class="form-group">
+        <div class="label">
+          <label>用户名：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="username" data-validate="required:请输入用户名" value="{$arr["username"]}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+          <div class="label">
+            <label>密码：</label>
+          </div>
+          <div class="field">
+            <input type="text" class="input w50" name="password" data-validate="required:请输入密码" value="{$arr["password"]}" readonly />
+            <div class="tips"></div>
+          </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>图片：</label>
+        </div>
+        <div class="field">
+          <input type="file" id="url1"  class="input tips" style="width:25%; float:left;"   data-toggle="hover" data-place="right" data-image="{$arr["picture"]}"  />
+          <input type="button" class="button bg-blue margin-left" id="image1" value="+ 浏览上传"  data-url="index.php?m=admin&c=user&a=upload" style="float:left;">
+          <div class="tipss">图片尺寸：500*500</div>
+         <!--  <img src="{$arr["picture"]}" alt=""> -->
+          <input type="hidden" name="picture" id="hidden" value="{$arr["picture"]}">
+        </div>
+      </div>     
+      <div class="form-group">
+          <div class="label">
+            <label>手机号:</label>
+          </div>
+          <div class="field">
+            <input type="text" class="input w50" name="phone" data-validate="required:请输入手机号码" value="{$arr["phone"]}" />
+            <div class="tips"></div>
+          </div>
+      </div>
+       <div class="form-group">
+          <div class="label">
+            <label>性别：</label>
+          </div>
+          <div class="field">
+           {if $arr["sex"]==1}<input type="radio" name="sex" value="1" checked>男 <input type="radio" name="sex" value="0">女{else}
+              <input type="radio" name="sex" value="1" >男 
+             <input type="radio" name="sex" value="0" checked>女
+           {/if}
+            <div class="tips"></div>
+          </div>
+        </div>
+      
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+     
+    </form>
+  </div>
+</div>
+<script src="{JS_PATH}/upload.js"></script>
+</body></html>
+

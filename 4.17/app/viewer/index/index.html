@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>芬芳迷人</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <link rel="icon" href="{IMG_PATH}/favicon.ico" type="{IMG_PATH}/x-icon"> -->
+	 <link rel="stylesheet" href="{CSS_PATH}/public.css">
+	 <link rel="stylesheet" href="{CSS_PATH}/main.css">
+	 <link rel="stylesheet" href="{CSS_PATH}/swiper.css">
+	 <!-- 通过src引进js文件 -->
+	 <script src="{JS_PATH}/jquery.js"></script>
+	 <script src="{JS_PATH}/rem.js"></script>
+	 <script src="{JS_PATH}/swiper.js"></script>
+
+</head>
+<body>
+	<div id="head">
+		<div class="head_left">
+			<p class="head_item_tubiao">&#xe699;</p>
+		</div>
+		<div class="head_middle">
+			<p>手机鲜花网（XianHua.CN）</p>
+		</div>
+		<div class="head_right">
+			<a href="index.php?m=index&c=sousuo&a=init">
+				<p class=" head_item_tubiao1 ">&#xe6ac;</p>
+			</a>
+		</div>
+	</div>
+	<div class="content">
+		<div id="display">
+			<div class="swiper-container">
+			<!-- //--首先定义一个容器 -->
+	            <div class="swiper-wrapper">
+	                <div class="swiper-slide"><img src="{IMG_PATH}/lunbo1.jpg" /></div><!--  --添加图片 -->
+	                <div class="swiper-slide"><img src="{IMG_PATH}/lunbo1.jpg" /></div>
+	                <div class="swiper-slide"><img src="{IMG_PATH}/lunbo1.jpg" /></div>
+	            </div>
+
+        	</div>
+			<!-- <img src="{IMG_PATH}/lunbo1.jpg" alt=""> -->
+			<div class="dispaly_shaw">
+				<!-- <div class="dispaly_item">
+					<p class="yuandian"></p>
+					<p class="yuandian"></p>
+					<p class="yuandian"></p>
+					<p class="yuandian"></p>
+					<p class="yuandian"></p>
+				</div> -->
+			</div>
+		</div>
+		<div id="caidan">
+			
+			{foreach $data $v}
+			<a href="index.php?m=index&c={$v['cename']}&a=init&id={$v['cid']}">	
+				<div  class="caidan_item">
+					<div class="caidan_item_top">
+					 	<img src="{$v['cthumb']}" alt="">
+						<!-- <span>&#xe625;</span> -->
+					</div>
+					<div class="caidan_item_bottom">
+						<p>{$v["cname"]}</p>
+					</div>
+				</div>
+			</a>
+			{/foreach}
+		</div>
+		
+				{foreach $data1 $v}
+		<div class="xianhua_item">
+			<div class="xianhua_item_left" >
+				<em>{$v["gsort"]}</em>
+			</div>
+			<a href="index.php?m=index&c=flower&a=getcontent&id={$v['gid']}">
+				<div class="xianhua_item_right">
+					<div class="xianhua_item_right_left">
+						<img src="{$v['gthumb']}" alt="" class="xianhua_img">
+					</div>
+					<div class="xianhua_item_right_middle">
+						<div class="xianhua_item_right_middle_top">
+							<p class="xianhua_sell">{$v["gsells"]}人已经购买</p>
+						</div>
+						<div class="xianhua_item_right_middle_bottom">
+							<p class="xianhua_discount">{$v["gdiscount"]}折</p>
+							<p class="xianhua_yuanjia">{$v["goprice"]}元</p>
+						</div>
+					</div>
+					<div class="xianhua_item_right_right">
+						<span>&gt;</span>
+						<p class="xianhua_price">{$v["gprice"]}</p>
+					</div>
+				</div>
+			</a>
+		</div>
+		{/foreach}
+
+		<!--<div id="bottom">-->
+			<!--<div class="bottom_content">-->
+				 <!--{if $name!==""||$name1!==""}-->
+				<!--({$name})-->
+
+				<!--<a href="index.php?m=index&c=members&a=exitlogin"><p>退出</p></a>-->
+				<!--{else}-->
+				<!--<a href="index.php?m=index&c=members&a=init"><p>尚未登录，请登录</p></a>-->
+				<!--{/if}-->
+			<!--</div>-->
+		<!--</div>-->
+	</div>
+	<script src="{JS_PATH}/lunbo.js"></script>
+
+</body>
+</html>
+

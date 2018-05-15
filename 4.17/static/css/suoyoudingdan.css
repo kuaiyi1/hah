@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 563523 */
+  src: url('https://at.alicdn.com/t/font_563523_1idx88y522y5jyvi.eot');
+  src: url('https://at.alicdn.com/t/font_563523_1idx88y522y5jyvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_563523_1idx88y522y5jyvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_563523_1idx88y522y5jyvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_563523_1idx88y522y5jyvi.svg#iconfont') format('svg');
+}
+.head{
+	width: 100%;
+	height: 0.85rem;
+	background-color: #c10100;
+	/* background-attachment: fixed;
+	position:fixed;
+	z-index:999;
+	left:0;
+	right:0;
+	top:0; */
+	position: absolute;
+	top: 0;
+}
+
+.content{
+	 overflow: auto;
+	 position:absolute;
+	top: 0.85rem;
+	bottom: 0;
+	width:100%;
+}
+.head_item{
+	padding-top: 0.18rem;
+	width: 100%;
+	height: 0.49rem;
+	
+	
+
+}
+.head_item_tubiao{
+	font-size: 0.35rem;
+	float: left;
+	margin-left: 0.25rem;
+	margin-right:  0.72rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.49rem;
+	color: #fff;
+	font-weight: bold;
+
+}
+.head_item_tubiao4{
+	font-size: 0.35rem;
+	float: left;
+	margin-left: 1.10rem;
+	margin-right:  1.68rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.49rem;
+	color: #fff;
+	font-weight: bold;
+}
+.head_item_tubiao2{
+	float: right;
+}
+.head_item_tubiao3{
+	margin-right:0.25rem;
+}
+.head_item_tubiao1{
+	margin-left: 0;
+	
+}
+.three{
+	width: 100%;
+	height: 0.67rem;
+	font-size: 0.26rem;
+	color: #393939;
+	text-align: center;
+}
+.three p {
+	width: 33.3%;
+	font-weight: normal;
+	display: block;
+	float: left;
+	line-height: 0.67rem;
+}
+.three h1{
+	width:33.3%;
+	line-height: 0.67rem;
+	display: inline-block;
+	font-size: 0.26rem;
+	font-weight: normal;
+
+}
+.three h2{
+	width:33.3%;
+	line-height: 0.67rem;
+	display: inline-block;
+	font-size: 0.26rem;
+	font-weight: normal;
+}
+.dingdan{
+	width: 100%;
+	height: 1.62rem;
+	background-color: #fff;
+	text-align: center;
+	line-height: 1.62rem;
+	font-size: 0.28rem;
+	color: #373737;
+}
+.dingdan p{
+	width:33.3%;
+	font-weight: normal;
+	display:block;
+	float:left;
+}

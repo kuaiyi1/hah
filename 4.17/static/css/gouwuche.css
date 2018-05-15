@@ -1,0 +1,197 @@
+@font-face {
+	font-family: 'iconfont';  /* project id 574395 */
+	src: url('https://at.alicdn.com/t/font_574395_3poniqrqfimuz0k9.eot');
+	src: url('https://at.alicdn.com/t/font_574395_3poniqrqfimuz0k9.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_574395_3poniqrqfimuz0k9.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_574395_3poniqrqfimuz0k9.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_574395_3poniqrqfimuz0k9.svg#iconfont') format('svg');
+}
+.content{
+	 overflow: auto;
+	 position:absolute;
+	top: 0.85rem;
+	bottom: 1.69rem;
+	width:100%;}
+#head{
+	width: 100%;
+	height: 0.85rem;
+	background-color: #c10100;
+	/* position:fixed;
+	z-index:999;
+	left:0;
+	right:0;
+	top:0; */
+	position:absolute;
+	top:0;
+}
+.head_item{
+	
+	width: 100%;
+	height: 0.85rem;
+	
+	
+
+}
+.head_item_tubiao{
+	font-size: 0.35rem;
+	float: left;
+	margin-left: 0.25rem;
+	margin-right:  2.24rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+
+}
+.head_item_tubiao2{
+	margin-right:  0;
+}
+.head_item_tubiao1{
+	margin-left: 0;
+	float: right;
+	font-size: 0.35rem;
+	margin-right:  0.34rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+}
+#zongjiesuan{
+	width: 100%;
+	height: 0.74rem;
+	background-color: #444444;
+}
+body{
+	background-color: #f7f7f7;
+}
+.zongjiesuan_left{
+	margin-left: 0.22rem;
+	font-size: 0.28rem;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 0.74rem;
+}
+.zongjiesuan_left1{
+	margin-left: 0.22rem;
+	font-size: 0.28rem;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 0.74rem;
+}
+.zongjiesuan_right{
+
+	font-size: 0.28rem;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 0.74rem;
+}
+.zongjiesuan_right1{
+	margin-right: 0;
+	margin-left: 0;
+}
+.zongjiesuan_right2{
+	color:#c10001;
+}
+#product{
+	width: 100%;
+	height: 2.02rem;
+	background-color: #fff;
+}
+.product_left{
+	width: 2.03rem;
+	height: 2.03rem;
+	float: left;
+}
+.product_right{
+	width: 5.17rem;
+	height: 2.03rem;
+	float: left;
+}
+.product_title{
+	color: #3b3b3b;
+	padding-top: 0.28rem;
+	font-size: 0.3rem;
+	height: 0.3rem;
+	font-weight: bold;
+	margin-bottom: 0.67rem;
+}
+.product_price{
+	font-size: 0.26rem;
+	color: #a90a0e;
+	float: left;
+}
+.product_tubiao{
+	font-size: 0.22rem;
+	font-weight: 400;
+	color: #cdcdcd;
+	float: left;
+	margin-left: 0.26rem;
+	font-family: 'iconfont'; 
+}
+#footer{
+	height: 1.69rem;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	/* position:fixed;
+	z-index:999;
+	left:0;
+	right:0;
+	bottom:0; */
+	background-color: #f1f1f1;
+
+}
+#order_number1{
+	
+	width: 6.75rem;
+	height: 0.85rem;
+	margin: 0.22rem 0.42rem 0.42rem 0.22rem;
+	border: 0.01rem solid #d7d7d5;
+	border-radius: 0.1rem;
+	background-color: #b50909;
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-size: 0.3rem;
+}
+.product_bottom{
+	width: 100%;
+	height: 0.57rem;
+}
+.product_bottom_right{
+	width: 2.74rem;
+	height: 100%;
+	float: right;
+}
+.product_tubiaoyi1{
+	font-size: 0.2rem;
+	float: left ;
+	color: #3b3b3b;
+	margin-right: 0.20rem;
+	line-height: 0.57rem;
+	margin-left: 0.2rem;
+	font-weight: 800;
+	font-family: 'iconfont';
+}
+.produt_shuliang{
+	width: 0.97rem;
+	height: 0.55rem;
+	border: 1px solid #a9a9a9;
+	padding-left: 0.16rem;
+	line-height: 0.55rem;
+	font-size: 0.22rem;
+	color: #2c2c2c;
+	float: left;
+
+}
+.zongjie1{
+		float:left;
+}
+.zongjie2{
+	float:right;
+}

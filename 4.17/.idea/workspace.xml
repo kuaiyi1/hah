@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5fe6d73-93e3-41b5-b6bd-cd50618f8296" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/project/checkprojectinsert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/project/checkprojectupdate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/project/projectdel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/project/projectinsert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/project/projectlist.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/project/projectupdate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/team/checkteaminsert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/team/checkteamupdate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/team/teamdel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/team/teaminsert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/team/teamlist.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/admin/team/teamupdate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/anlizhanshi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/anlizhanshicontent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/chanpincontent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/chanpinjieshao.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/checkliuyan.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/chufangzhanshi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/footer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/gongsijianjie.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/guanyu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/header.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/index/tuiduijianshe.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/public/db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/public/public.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/public/public.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/anlizhanshi.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/chanpinjiehshao.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/chufangzhanshi.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/gongsijianjie.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/guanyu.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/public.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/css/tuiduijianshe.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/78.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/79.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/86.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/87.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/90.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/90.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/92.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/92.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/93.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/93.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/94.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/94.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/95.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/96.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/97.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/98.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/99.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/999.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/999.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/aa9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/beijing.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/chuang.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/deng.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/deng.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/dengzi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/dingwei.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/ditu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/g9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/guadeng.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/h1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/qq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/shafa.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/shafa1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/shafa1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/w1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/w2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/w3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/w4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/w5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/weibo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/image/weixin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/js/anlizhanshi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/js/jquery.validate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/static/js/jquery3.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/0a33b23a29ab0319a9a0aed881e1611b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/10197badb4663d5746c544038eed3fc0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/14285b8f4e460e05a00fab9fdf8e3567.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/1c703ca70a7f155842112ea54622e447.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/1da37c8fe835750ddc81c00ed4082902.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/249aebdc4e4225e8919f400477620d75.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/25a47eb50a12aadda3eed13cfb86da3f.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/274773ba9b029c4f5911b7066fde7a51.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/2b3ec14703e1bb7b9759712a4c41b928.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/2b95a9dd33efb05346ba5a386301b1cc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/2c9cb6f05509e19d2bfc4a1648933d8d.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/2e0ac638fd6648e92f428c948496f999.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/3b8684530bf13aa66dc89538429ca79e.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/42ba097a121ce6310477ce68bd37e943.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/4ecee177a1d17a05a770e4b2d69d1594.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/5838ebaf48e92dbcdc78ea410d8854aa.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/5d58a93fa573c4caf80e2ef084128fed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/62cfd8a3c387c4d0e411783b069cce7a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/65a2919abb047b9eb90b269cc5be67cf.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/6ccc253b40e6af4f3daa5b3bb892df59.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/74f54bf030fa2a4fc93925bb2e48783d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/7c0ad92f79161bdb7e19731800be20f4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/807b8d8943702ff3fa374163a2692aee.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/848ccc83c0dda9e5e697e742ed17f212.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/852c54445bfa69aa1f8d974b660a6c20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/90c3576f28ef0125f66e4d3bda574fcd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/9163830a5ef9c2a7f48d1b930819fab5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/9aacce97d1693407fa7bc2c03fef1e05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/9b4366dfd72e9a66d2db57e3f670aa3b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/9d1cfb6617c2ac1f7bf52208ad78f592.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/9dd61546c3a854acb9c994c5664bad04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/9e5df268b1442794fa4ac518f7a91b25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/a87d1693db5dcbb043968e9b52cfb9a5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/aa75d15e050a5b99c23e24bc0caaafe1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/ae1b9db874f272480fc6d873459e9fa7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/b0895854d85c0f4a2e77f0e52f2bdc90.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/b3d9e1d6e2f4ee0d0d523fa8450b99ab.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/bd72362bdbd4d084000df3968f02f537.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/bd79285e5b4ad275e41fcf22fabc0e1a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/c3f3a34f932fbabced58cd5ef264620c.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/cc5d10e35593c83e356c6edb0eac104d.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/d04d6bf53aaa6e5a541ef8bf612f71b3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/d059309ad241a8565520ec255a38bbde.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/db813e9d316fe3f9dbdd9e118febe044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/dd35cb8be0c6351ca797391bad20516f.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/df7e03198ca3339db9b5427828219ef8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/e92acbf943c66729df141df4aa9fb97a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/ebbda1e06d1a4d2b8272ddaf7e61dbf5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/f44091addb98393a0aa30bba51cfa8f9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/fa298e035a09265102884fe1ab3656ef.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/fc64501cb5483a3b8f131cd364f6985e.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/fc6aa81046fbe00b53576db7d3d4897f.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-12/ff6eb0b6eb5fcb8da501b001daebd48e.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/04456d3ba5f027357f06fbc0decae29e.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/0e80a1844c0149cc26d28be5528c5eb7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/18c09a408912acaf8e82e332ee8f1cc1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/1ab5a94ae5f92c47072a13cfd0e61049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/24e87c568954609981ed5ead1c24ef7b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/32c965a1672781e2d260777e23bdeeb0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/3507abef33075fe1b451ec4bdcda6ac6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/36ebeae2905c76b654b62563a9d69e52.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/3ae80371011c085d835db000d5f15887.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/3f8005b1e3cdecc758a6191760c249a4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/42acd309430377141734c41585ca1954.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/44626154a3604f8650f633437556bcd9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/4c8768d36740d0e4c5badfad632241ca.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/5a7576b9f278bece0d29b7651b1f3bb3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/5cd14c3fb96d0495c455e94d1921595c.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/5d075d1dab5f19cb61a4ec9f90f8d58a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/70f0f45c74da028484a09a1c6a39835f.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/90f520ce8f5d2617cb213b317da1ef94.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/988185399c28cdb3bc12ae6737b028a4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/9c24a871d5509c0e580a2fd1b8bf0c4f.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/a2bece7aa4e50b3daa9e4ee2b18cfcc7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/a683eec8dcad051c0bab045327dc105a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/ab68d63fc81c654929849e3796618330.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/ad25462d7950d154d34cd73b65f4112c.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/ad46ca6c632b63d58a8305c6acd1a884.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/b83203f21494d498c9e1d81264371267.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/c0a9a6b7f90359b11b0695fe228938bd.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/c0d9d34a9189b225faa53cb61448075a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/c7167c5add0f60973be10bb0d02634f6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/c893977c414f17c3d752a9d1d2b68560.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/c91c889f560d27940854b704ff445d8d.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/ccdc33a3874594495ce10d94fa6b30e4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/d51bedb1652e98534688c475e5939869.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-13/f18b982cd320507f3fad9b05fabb63db.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/0cade619879875401007defddf560202.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/2ee44efed68e8d6d12948cbc1bca0792.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/2f9e9d536b9aa52d978bfcc2a8db8fc2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/3b982b5e8a77e57f393a0df231c5b76a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/3df04c4f9df360b97751ee8b0a62030c.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/486bd643c14f9cc119773fd600c1a518.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/529e418da728f058ed3e764319a69a9d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/5dd6aa204bc5868cb2aff76dc15b07ed.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/6778219626398f8d25a8a4d810841dbf.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/6e5630a4aee8816a993971ebf783b593.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/707edb669d8634b90f2ca0845c3772d1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/74f2c518c8fa7ed8ad75355cbdb9f2ea.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/80011ba616bb7da8dc8fdc2918757330.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/a852b5c53c084ff525b6496da83d1d57.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/a9cab945a25c38342cce9963367406ba.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/b5a3f50c14d6a5bff3b4479832ee764c.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/bbd6b3697d4299b22d81e9ecda77e040.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/bf9d4aa8f7ae21ef51baf37460bba813.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/2018-04-15/df004f05d7d3550e54bd88a35046dfd5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/yiju1/web/upload/upload.php" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/viewer/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gouwuche.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/viewer/index/gouwuche.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suoyoudingdan.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/viewer/index/suoyoudingdan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/libs/yiju1" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/viewer/index/login.html" />
+        <option value="$PROJECT_DIR$/static/js/getpictures.jsp.js" />
+        <option value="$PROJECT_DIR$/app/model/index/membersModel.php" />
+        <option value="$PROJECT_DIR$/static/css/person.css" />
+        <option value="$PROJECT_DIR$/app/viewer/index/person.html" />
+        <option value="$PROJECT_DIR$/app/controller/index/indexcontroller.php" />
+        <option value="$PROJECT_DIR$/app/viewer/index/xianhua.html" />
+        <option value="$PROJECT_DIR$/app/viewer/index/cartoon.html" />
+        <option value="$PROJECT_DIR$/app/viewer/index/chocolate.html" />
+        <option value="$PROJECT_DIR$/app/viewer/index/hamper.html" />
+        <option value="$PROJECT_DIR$/app/viewer/index/openflower.html" />
+        <option value="$PROJECT_DIR$/static/js/getthree.js" />
+        <option value="$PROJECT_DIR$/static/js/getpictures.js" />
+        <option value="$PROJECT_DIR$/static/css/gouwuche.css" />
+        <option value="$PROJECT_DIR$/app/viewer/index/cake.html" />
+        <option value="$PROJECT_DIR$/static/css/xianhua.css" />
+        <option value="$PROJECT_DIR$/static/js/getprice.js" />
+        <option value="$PROJECT_DIR$/app/viewer/goodsadd.html" />
+        <option value="$PROJECT_DIR$/app/viewer/goodsupdate.html" />
+        <option value="$PROJECT_DIR$/app/viewer/ordersadd.html" />
+        <option value="$PROJECT_DIR$/app/model/admin/ordersModel.php" />
+        <option value="$PROJECT_DIR$/app/controller/admin/orderscontroller.php" />
+        <option value="$PROJECT_DIR$/app/viewer/ordersupdate.html" />
+        <option value="$PROJECT_DIR$/static/js/getaddress.js" />
+        <option value="$PROJECT_DIR$/static/css/suoyoudingdan.css" />
+        <option value="$PROJECT_DIR$/app/viewer/index/wodexinxi.html" />
+        <option value="$PROJECT_DIR$/app/controller/index/orderscontroller.php" />
+        <option value="$PROJECT_DIR$/app/model/index/ordersModel.php" />
+        <option value="$PROJECT_DIR$/app/controller/index/memberscontroller.php" />
+        <option value="$PROJECT_DIR$/app/viewer/index/dingdanchaxun.html" />
+        <option value="$PROJECT_DIR$/app/controller/index/orderquerycontroller.php" />
+        <option value="$PROJECT_DIR$/app/viewer/index/index.html" />
+        <option value="$PROJECT_DIR$/app/viewer/index/product.html" />
+        <option value="$PROJECT_DIR$/static/css/product.css" />
+        <option value="$PROJECT_DIR$/static/js/lunbo.js" />
+        <option value="$PROJECT_DIR$/app/controller/index/gouwuchecontroller.php" />
+        <option value="$PROJECT_DIR$/app/model/index/gouwucheModel.php" />
+        <option value="$PROJECT_DIR$/libs/db.class.php" />
+        <option value="$PROJECT_DIR$/app/viewer/index/gouwuche.html" />
+        <option value="$PROJECT_DIR$/app/viewer/index/suoyoudingdan.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="999" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="viewer" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="viewer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="4.17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.17" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5fe6d73-93e3-41b5-b6bd-cd50618f8296" name="Default" comment="" />
+      <created>1524796559788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524796559788</updated>
+      <workItem from="1524796566273" duration="27293000" />
+      <workItem from="1525003762210" duration="8167000" />
+      <workItem from="1525048034457" duration="28509000" />
+      <workItem from="1525135369432" duration="4985000" />
+      <workItem from="1525143488230" duration="1202000" />
+      <workItem from="1525183256844" duration="2079000" />
+      <workItem from="1525221034191" duration="1968000" />
+      <workItem from="1525224737767" duration="190000" />
+      <workItem from="1525241352806" duration="8849000" />
+      <workItem from="1525328426873" duration="3988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87230000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2632375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/getpictures.jsp.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/person.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index/indexcontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/index/cartoonModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/index/flowerModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/xianhua.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="59" column="87" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/getcode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/openflower.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="58" column="63" lean-forward="false" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/hamper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="58" column="59" lean-forward="false" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/chocolate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="58" column="62" lean-forward="false" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/cartoon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="59" column="60" lean-forward="false" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/getpictures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/index/membersModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/person.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1281">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index/cakecontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/xianhua.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/cake.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/getprice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/goodsadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="102" column="137" lean-forward="true" selection-start-line="102" selection-start-column="95" selection-end-line="102" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/admin/orderscontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="80" column="44" lean-forward="true" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/getaddress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/ordersadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="24" column="160" lean-forward="true" selection-start-line="24" selection-start-column="111" selection-end-line="24" selection-end-column="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/suoyoudingdan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index/cartooncontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/wodexinxi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/ordersupdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3036">
+          <caret line="92" column="78" lean-forward="true" selection-start-line="92" selection-start-column="75" selection-end-line="92" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/wodexinxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/index/ordersModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/goodsupdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="137" column="163" lean-forward="false" selection-start-line="137" selection-start-column="163" selection-end-line="137" selection-end-column="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/admin/categoryModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/dingdanchaxun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="39" column="58" lean-forward="false" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/admin/gouwucheModel.php" />
+    <entry file="file://$PROJECT_DIR$/app/model/admin/ordersModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/gouwuche.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index/flowercontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1201">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index/memberscontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1736">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index/orderscontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index/orderquerycontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="134" column="36" lean-forward="false" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="81" column="28" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/getthree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="97" column="51" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/lunbo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/index/gouwucheModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index/gouwuchecontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/db.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <marker date="1525330180692" expanded="true" signature="1142:1193" ph="INSERT INTO ${$this-&gt;table}... " />
+            <marker date="1525330180692" expanded="true" signature="1571:1607" ph="DELETE FROM ${$this-&gt;table}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/suoyoudingdan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/gouwuche.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viewer/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

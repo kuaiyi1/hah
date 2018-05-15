@@ -1,0 +1,38 @@
+{if isset($notice)}
+			
+
+<style>
+				#notice{
+					width: 100%;
+					height: 1rem;
+					text-align: center;
+					line-height: 1rem;
+					font-size: 0.3rem;
+					position: relative;
+					color: #c10100;
+				}
+				#notice span{
+					width: 0.75rem;
+					height: 0.75rem;
+					position: absolute;
+					top: 0.125rem;
+					right:0.2rem ;
+					background: #c10100;
+					color: #fff;
+					border-radius: 50%;
+					text-align: center;
+					line-height: 0.75rem;
+				}
+			</style>
+		 <div id="notice">{$notice}
+		 <span class="del">X</span>
+		 <script>
+		 	let del=document.querySelector(".del");
+		 	del.onclick=function(val,index){
+		 		console.log(0);
+		 		var obj=del.parentNode;
+		 		obj.parentNode.removeChild(obj);
+		 	}
+		 </script>
+		 </div>
+	{/if}

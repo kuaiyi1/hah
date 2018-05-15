@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 574395 */
+  src: url('https://at.alicdn.com/t/font_574395_23v16emfpi90ms4i.eot');
+  src: url('https://at.alicdn.com/t/font_574395_23v16emfpi90ms4i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_574395_23v16emfpi90ms4i.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_574395_23v16emfpi90ms4i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_574395_23v16emfpi90ms4i.svg#iconfont') format('svg');
+}
+#head{
+	width: 100%;
+	height: 0.85rem;
+	background-color: #c10100;
+	
+}
+.head{
+	width: 6.81rem;
+	height: 0.85rem;
+	margin: 0 auto;
+}
+.reg_title{
+	width: 100%;
+	height: 0.79rem;
+	border-bottom: 0.02rem solid #dcdcdc;
+}
+.reg_title_item{
+	width: 50%;
+	height: 100%;
+	color: #dcdcdc;
+	font-size: 0.24rem;
+	line-height: 0.79rem;
+	text-align: center;
+	float: left;
+}
+.color1{
+	color: #69090a;
+}
+.phone,.message,.password,.password1{
+	width: 6.77rem;
+	height: 0.90rem;
+	border: 0;
+	border-radius: 0.2rem;
+	border: 0.02rem solid #dcdcdc;
+	margin: 0.3rem auto 0.2rem;
+	display: block;
+	color: #dcdcdc;
+	font-size: 0.28rem;
+	padding-left: 0.22rem;
+	line-height: 0.9rem;
+}
+.jiegou{
+	width: 6.81rem;
+	min-height: 0.9rem;
+	margin: 0 auto;
+}
+.getcode,.getcode1{
+	width: 1.95rem;
+	height: 0.9rem;
+	border-radius: 0.2rem;
+	border: 0;
+	display: block;
+	float: left;
+	background: #fff;
+	border: 0.02rem solid #dcdcdc;
+	line-height: 0.9rem;
+	text-align: center;
+	font-size: 0.28rem;
+	color: #dcdcdc;
+	margin-right: 0.21rem;
+	margin-bottom: 0.2rem;
+}
+.code{
+   color: #ae0404;
+}
+.submit{
+	width: 6.77rem;
+	height: 0.90rem;
+	background: #ae0404;
+	border: 0;
+	border-radius: 0.2rem;
+	text-align: center;
+	display: block;
+	line-height: 0.9rem;
+	color: #fefffa;
+	font-size: 0.32rem;
+	margin-top: 0.2rem;
+
+}
+.head_left{
+	float: left;
+	
+	line-height: 0.85rem;
+	font-size: 0.34rem;
+	color: #fff;
+	font-family: 'iconfont'; 
+	font-weight: 700;
+	width: 20%;
+}
+.head_middle{
+	width: 60%; 
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	line-height: 0.85rem;
+	text-align: center;
+}
+.head_right{
+	float: right;
+	
+	line-height: 0.85rem;
+	font-size: 0.34rem;
+	color: #fff;
+	font-family: 'iconfont'; 
+	font-weight: 700;
+	width: 20%;
+}
+.head_right p{
+	float: right;
+	display: block;
+}
+.getback_message{
+	width: 5.90rem;
+	height: 0.38rem;
+	margin:  0.37rem auto;
+}
+.message_left{
+	float: left;
+	color: #dcdcdc;
+	font-size: 0.26rem;
+}
+.hour{
+	width: 1.57rem;
+	height: 0.35rem;
+	border: 0;
+	border: 0.02rem solid #9a9a9a;
+	color: #9a9a9a;
+	font-size: 0.22rem;
+	line-height: 0.35rem;
+	text-align: center;
+	display: block;
+	float: left;
+	margin-left: 0.1rem;
+}

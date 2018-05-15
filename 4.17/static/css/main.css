@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 574395 */
+  src: url('https://at.alicdn.com/t/font_574395_4adoq7wb4drnewmi.eot');
+  src: url('https://at.alicdn.com/t/font_574395_4adoq7wb4drnewmi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_574395_4adoq7wb4drnewmi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_574395_4adoq7wb4drnewmi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_574395_4adoq7wb4drnewmi.svg#iconfont') format('svg');
+}
+#head{
+	width: 100%;
+	height: 0.85rem;
+	background-color: #c10100;
+	position: absolute;
+	top: 0;
+}
+.content{
+	 overflow: auto;
+	 position:absolute;
+	top: 0.85rem;
+	bottom: 0;
+	width:100%;
+}
+.head_left{
+	float: left;
+}
+.head_middle{
+	float: left;
+}
+.head_middle p{
+	font-size: 0.36rem;
+	line-height: 0.85rem;
+	margin-left: 0.92rem;
+	color: #fff;
+}
+.head_item_tubiao{
+	font-size: 0.35rem;
+	float: left;
+	margin-left: 0.25rem;
+	/* margin-right:  2.24rem; */
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+
+}
+.head_item_tubiao1{
+	margin-left: 0;
+	float: right;
+	font-size: 0.35rem;
+	margin-right:  0.34rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+}
+.head_right{
+	/* margin-left: 0.94rem; */
+	float: right;
+}
+#display{
+	width: 100%;
+	height: 3.22rem;
+	position: relative;
+}
+#caidan{
+	width:6.8rem ;
+	height: 2.72em;
+	margin: 0.24rem auto 0.21rem;
+	border: 0.01rem solid #d7d7d5;
+	border-radius: 0.08rem;
+}
+.xianhua_item{
+	width: 6.8rem;
+	height: 1.21rem;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 0.2rem;
+}
+.xianhua_item:nth-child(3){
+	margin-bottom: 0.2rem;
+}
+.xianhua_item_left{
+	width: 0.6rem;
+	height: 100%;
+	background-color: #e00201;
+	float: left;
+}
+.xianhua_item_left em{
+	font-size: 0.3rem;
+	line-height: 1.21rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 400;
+	display:block ;
+}
+.xianhua_item_right{
+	width: 6.2rem;
+	height: 100%;
+	float: left;
+}
+.xianhua_item_right_left{
+	float: left;
+	margin-right: 0.8rem;
+}
+.xianhua_img{
+	width: 1.20rem;
+	height: 1.20rem;
+}
+.xianhua_item_right_middle{
+	float: left;
+	height: 100%;
+}
+.xianhua_item_right_middle_top{
+	padding-top: 0.2rem;
+	margin-bottom: 0.25rem;
+
+}
+.xianhua_sell{
+	font-size:0.16rem;
+	color: #b1b1b1;
+}
+.xianhua_item_right_middle_bottom{
+	margin-bottom: 0.38rem;
+}
+.xianhua_discount{
+	font-size: 0.22rem;
+	color: #be3c3c;
+	float: left;
+	display: block;
+	margin-right: 0.11rem;
+}
+.caidan_item_top span{
+	font-size: 0.50rem;
+	color: #fff;
+	text-align: center;
+	font-family: 'iconfont'; 
+	position: absolute;
+	top: 0.05rem;
+	left: 0.05rem;
+
+}
+.xianhua_yuanjia{
+	font-size: 0.22rem;
+	color: #b1b1b1;
+	float: left;
+	display: block;
+	text-decoration:line-through;
+}
+.xianhua_item_right_right{
+	float: right;
+	margin-right: 15px;
+}
+.xianhua_item_right_right span{
+	font-size: 0.32rem;
+	line-height: 1.21rem;
+	margin-left: 0.16rem;
+	font-weight: 400;
+	color: #cbcbcb;
+	float: right;
+}
+.xianhua_price{
+	font-size: 0.24rem;
+	line-height: 1.21rem;
+	color: #bf0000;
+	float: right;
+}
+.xianhua_item1{
+	margin-bottom: 0.6rem;
+}
+#bottom{
+	
+	width: 6.8rem;
+	margin: 0.5rem auto;
+	
+	text-align: center;
+}
+.bottom_content{
+	margin-left: 0.26rem;
+	margin-right: 0.2rem;
+	width: 6.34rem;
+	height: 0.7rem;
+	font-size: 0.26rem;
+	color: #a9a9a9;
+	font-weight: 400;
+	float: left;
+	display: block;
+
+	word-break: break-all;
+	
+}
+
+.bottom_content span{
+	width: 0.02rem;
+	/* margin-top: 0.04rem; */
+	height: 0.22rem;
+	background-color: #a9a9a9;
+	float: left;
+	display: block;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+	line-height: 0.26rem;
+}
+.caidan_item{
+	width: 1.69rem;
+	height: 1.35rem;
+	border-right:0.01rem solid #e2e6e9 ;
+	border-bottom: 0.01rem solid #e2e6e9;
+	float: left;
+}
+/* .caidan_item_top{
+	
+	height: 0.6rem; 
+} */
+.caidan_item_top{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin: 0.08rem auto;
+	/* border-radius: 50%;
+	background-color: #1a8750;
+	position: relative; */
+}
+.caidan_item_bottom p{
+	font-size: 0.26rem;
+	font-weight: 300;
+	color: #9c9c9a;
+	text-align: center;
+
+}
+.dispaly_shaw{
+	position: absolute;
+	left: 0;
+	bottom: 0.7rem;
+	width: 100%;
+	height: 0.7rem;
+	z-index: 100;
+	background-color: rgba(80, 37, 9, 0.5);
+}
+.yuandian{
+	width: 0.13rem;
+	height: 0.13rem;
+	
+	border-radius: 50%;
+	background-color:#888983 ;
+	float: left;
+	margin-right: 0.17rem;
+}
+.dispaly_item {
+	position: absolute;
+	bottom: 0.11rem;
+	left: 39.4%;
+	
+	
+}
+.bottom_content  p{
+	display: block;
+	float: right;
+}
+.bottom_content a{
+	color: #a9a9a9;
+}
+.xianhua_item::last-child{
+	margin-bottom: 0.6rem;
+}

@@ -1,0 +1,122 @@
+{include file="header.html"}
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>增加订单</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="index.php?m=admin&c=orders&a=checkordersupdate"> 
+      <input type="hidden" name="id" value="{$arr1['oid']}">
+      <div class="form-group">
+        <div class="label">
+          <label>商品名称：</label>
+        </div>
+        <div class="field">
+          <select name="gid" id="gname" class="input w50" >
+            {if $arr1['gid']=="未选择"}
+                <option value="未选择" selected>请选择商品名称</option>
+             {/if}
+            {foreach  $arr $v}
+            <option value="{$v['gid']}">{$v['gname']}</option>
+            {/foreach}
+               
+             <option value="未选择">请选择商品名称</option>
+                {foreach $arr $v}
+                {if $arr1['gid']==$v['gid']}
+                <option value="{$v['gid']}" checked>{$v['gname']}</option>
+                {/if}
+                {/foreach}
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+          <div class="label">
+            <label>商品数量</label>
+          </div>
+          <div class="field">
+            <input type="text" class="input w50"  name="gnumber" id="gnumber" data-validate="required:请输入商品数量" value="{$arr1['gnumber']}" onkeyup="this.value=this.value.replace(/\D/g,'')" />
+            <div class="tips"></div>
+          </div>
+      </div>
+      <div class="form-group">
+          <div class="label">
+            <label>总价格:</label>
+          </div>
+          <div class="field">
+            <input type="text" class="input w50" id="gprice" name="gprice" data-validate="required:请输入商品价格" value="{$arr1['gprice']}"readonly />
+            <div class="tips"></div>
+          </div>
+      </div>
+      <div class="form-group">
+          <div class="label">
+            <label>收件人姓名:</label>
+          </div>
+          <div class="field">
+              <select name="uid" id="username" class="input w50">
+               {if $arr1["uid"]=="未选择"}
+                <option value="未选择" checked>请选择收件人姓名</option>
+                {/if}
+                 {foreach  $arr2 $v}
+                 <option value="{$v['uid']}">{$v['username']}</option>
+                {/foreach}
+                <option value="未选择" >请选择收件人姓名</option>
+                {foreach  $arr2 $v}
+                {if $v["uid"]==$arr1["uid"]}
+                 <option value="{$v['uid']}" checked>{$v['username']}</option>
+                {/if}
+                {/foreach}
+          </select>
+          </div>
+      </div>
+       <div class="form-group">
+          <div class="label">
+            <label>收件人地址:</label>
+          </div>
+          <div class="field">
+              <select name="aid" id="address1" class="input w50">
+                 <option value="{$arr1['aid']}" checked>{$arr3['area']}{$arr3['location']}</option>
+                 
+                
+                 
+              </select>
+          </div>
+      </div>
+       <div class="form-group">
+          <div class="label">
+            <label>订单状态:</label>
+          </div>
+          <div class="field">
+                <select name="ostate" id="username" class="input w50">
+                <option value="未选择"  {if $arr1["ostate"]=="未选择"}selected{/if} >请选择收件人状态</option>
+                 <option  value="0" {if $arr1["ostate"]=="0"}selected{/if}>未付款</option>
+                 <option  value="1" {if $arr1["ostate"]=="1"}selected{/if}>已付款</option>
+                 <option  value="2" {if $arr1["ostate"]=="2"}selected{/if}>尚未发货</option>
+                 <option  value="3" {if $arr1["ostate"]=="3"}selected{/if}>配送中</option>
+                 <option  value="4" {if $arr1["ostate"]=="4"}selected{/if}>已收到</option>
+              </select>
+          </div>
+      </div>
+      <div class="form-group">
+          <div class="label">
+            <label>订单排序:</label>
+          </div>
+          <div class="field">
+            <input type="text" class="input w50" value="{$arr1['osort']}" name="osort" data-validate="required:请输入排序号" onkeyup="this.value=this.value.replace(/\D/g,'')" />
+            <div class="tips"></div>
+          </div>
+      </div>
+     
+     <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+ <div id="address" data-src="{JS_PATH}/area.json"></div>
+<script src="{JS_PATH}/areadata.js"></script>
+<script src="{JS_PATH}/getaddress.js"></script>
+
+</body></html>

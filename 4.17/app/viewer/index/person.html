@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鲜花</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--<link rel="icon" href="img/favicon.ico" type="img/x-icon">-->
+	 <link rel="stylesheet" href="{CSS_PATH}/public.css">
+	 <link rel="stylesheet" href="{CSS_PATH}/person.css">
+
+	 <!-- 通过src引进js文件 -->
+	 <script src="{JS_PATH}/rem.js"></script>
+</head>
+<body>
+	<div id="head">
+		<div class="head">
+			<a onclick="history.back()"><div class="head_left">&#xe608;</div></a>
+			<div class="head_middle">修改个人资料</div>
+			<a href="index.php?m=index&c=index&a=init"><div class="head_right"><p>&#xe607;</p></div></a>
+		</div>
+	</div>
+	<form action="index.php?m=index&c=members&a=updateperson" method="post">
+		<div class="base">
+			<div class="base_title">基本信息</div>
+			<div class="email">
+				{if $data['picture']=="" }
+					<div class="tips">您还没设置图片，赶紧设置吧</div>
+					<img src="" alt="" id="imgs">
+					<input type="file" id="url1"   />
+					<input type="button" id="image1" value="浏览上传" data-url="index.php?m=admin&c=user&a=upload">
+					<input type="hidden" name="picture" id="hidden" value="">
+				{else}
+				<img src="{$data['picture']}" alt="">
+				<input type="file" id="url2"  class="img2" />
+				<input type="button" id="image2" value="浏览上传" data-url="index.php?m=admin&c=user&a=upload">
+				<input type="hidden" name="picture" id="hidden2" value="{$data['picture']}" >
+				{/if}
+			</div>
+			<div class="base_name">
+				<div class="base_name_left">会员名:</div>
+				<input type="text" name="username"class="base_right" {if $data['username']==''} value="未设置"{else}value="{$data['username']}"{/if} placeholder="">
+			</div>
+			<div class="base_name">
+				<div class="base_name_left w">性别:</div>
+				<div class="base_name_right">
+
+					<input type="radio" name="sex" value="1" {if $data['sex']=="1"||$data['sex']==""}checked{/if} >男
+					<input type="radio" name="sex" value="0" {if $data['sex']=="0"}checked{/if} >女
+				</div>
+			</div>
+			<div class="phone">
+				<div class="phone_left">手机号码:</div>
+				<input type="text" name="phone" class="phone_right" placeholder="" value="{$data['phone']}" readonly>
+			</div>
+
+			<div class="line"></div>
+			<input type="submit" class="submit" value="确定">
+
+		<!--</div>-->
+	</form>
+
+
+
+	<script src="{JS_PATH}/jquery.js"></script>
+	<script src="{JS_PATH}/getpictures.js"></script>
+	
+	
+</body>
+</html>

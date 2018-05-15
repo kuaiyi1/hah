@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <link rel="icon" href="img/favicon.ico" type="img/x-icon"> -->
+	 <link rel="stylesheet" href="{CSS_PATH}/public.css">
+	 <link rel="stylesheet" href="{CSS_PATH}/gouwuche.css">
+
+	 <!-- 通过src引进js文件 -->
+	 <script src="{JS_PATH}/rem.js"></script>
+
+</head>
+<body>
+	<div id="head">
+		
+			<div class="head_item">
+				<a onclick="history.back()">
+					<p class="head_item_tubiao">&#xe608;</p>
+				</a>
+				<p class="head_item_tubiao head_item_tubiao2">购物车</p>
+				<a href="index.php?m=index&c=index&a=init">
+					<p class=" head_item_tubiao1 ">&#xe607;</p>
+				</a>
+			</div>
+		
+	</div>
+	<div class="content">
+		<div id="zongjiesuan">
+			<div class="zongjie1">
+			<p class="zongjiesuan_left">商品数量：</p>
+			<p class="zongjiesuan_left1">{$num}</p>
+			</div>
+			<div class="zongjie2">
+				<p class="zongjiesuan_right">总计：</p>
+				<p class="zongjiesuan_right zongjiesuan_right1 zongjiesuan_right2">{$gprice}</p>
+				<p class="zongjiesuan_right zongjiesuan_right1">元</p>
+			</div>
+		</div>
+		{foreach $arr $v}
+		<div id="product">
+			<div class="product_left">
+				<img src="{$v['gthumb']}" alt="">
+			</div>
+			<div class="product_right">
+				<p class="product_title">{$v['gname']}</p>
+				<div class="product_bottom">
+				<p  class="product_price">{$v['gprice']}元</p>
+				<p class="product_tubiao">&#xe80a;</p>
+				<div class="product_bottom_right" id="{$v['gid']}">
+					<p class="product_tubiaoyi1 jian" >&#xe60d;</p>
+					<input type="text" value="{$v['gnumber']}" class="produt_shuliang" readonly>
+					<p class="product_tubiaoyi1 jia" >&#xe641;</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		{/foreach}
+	</div>
+	<div id="footer">
+		<a href="tianxiedingdan.html">
+			<input type="button" id="order_number1" value="去结算">
+		</a>
+	</div>
+	
+	
+	
+	
+</body>
+<script src="{JS_PATH}/jquery.js"></script>
+<script>
+
+
+    // var price=document.querySelector(".zongjiesuan_right2");
+    //
+    // var p=document.querySelector(".product_price");
+	 // var s=num.innerHTML;
+    var num=$(".zongjiesuan_left1").html();
+
+
+
+	 $(".jian").each(function(index,ele){
+	     $(this).click(function(){
+             var index = $(".jian").index(this);
+
+				var s=$(".produt_shuliang").eq(index).val();
+
+             s--;
+
+             if(s==0){
+                 s=1;
+                 return;
+             }
+			 if(num==2){
+                 num=2;
+                 return;
+			 }
+             num--;
+             $(".produt_shuliang").eq(index).val(s);
+             $(".zongjiesuan_left1").html(num);
+
+            $(".product_price").html=s*parseInt($(".product_price").html);
+		 })
+	 })
+    $(".jia").each(function(index,ele){
+        $(this).click(function(){
+            var index = $(".jia").index(this);
+            var s=$(".produt_shuliang").eq(index).val();
+
+            s++;
+            num++;
+            $(".produt_shuliang").eq(index).val(s);
+            $(".zongjiesuan_left1").html(num);
+            $(".product_price").html=s[index]*parseInt($(".product_price")[index].html);
+        })
+    })
+
+
+
+	$(".product_tubiao").click(function(ele,index){
+
+			$(this).each(function(){
+                $.ajax({
+					datatype:"json",
+                    url:"index.php?m=index&c=gouwuche&a=deletegouwuche",
+                    data:{ gid:$(".product_bottom_right").attr("id") },
+                    success:function(r){
+						console.log(r);
+                    }
+                })
+			})
+
+	});
+</script>
+</html>

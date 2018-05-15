@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 563523 */
+  src: url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.eot');
+  src: url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_563523_ro9gyz3fge23ayvi.svg#iconfont') format('svg');
+}
+#head{
+	width: 100%;
+	height: 0.85rem;
+	background-color: #c10100;
+	
+}
+.content{
+	 overflow: auto;
+	 position:absolute;
+	top: 0.85rem;
+	bottom: 0;
+	width:100%;
+}
+.head_item{
+	
+	width: 100%;
+	height: 0.85rem;
+	
+	
+
+}
+.head_item_tubiao{
+	font-size: 0.35rem;
+	float: left;
+	margin-left: 0.25rem;
+	margin-right:  2.24rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+
+}
+.head_item_tubiao2{
+	margin-right:  0;
+}
+.head_item_tubiao1{
+	margin-left: 0;
+	float: right;
+	font-size: 0.35rem;
+	margin-right:  0.34rem;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 0.85rem;
+	color: #fff;
+	font-weight: bold;
+}
+.display{
+	width: 100%;
+	height: 3.20rem;
+	padding-bottom: 0.18rem;
+	background-color: #fff;
+}
+.caidan_item{
+	width: 100%;
+	height: 0.9rem;
+	background-color: #f7f7f7;
+	border-top: 1px solid #e5e6eb;
+}
+.caidan_item_wenzi{
+	margin-left: 0.3rem;
+	float: left;
+	margin-right: 0.20rem;
+	color: #7a7a7a;
+	font-size: 0.40rem;
+	text-align: center;
+	line-height: 0.9rem;
+	font-weight: bold;
+	font-family: 'iconfont'; 
+	 display: block;
+}
+.caidan_item_wenzi1{
+
+	float: left;
+	margin-right: 0.20rem;
+	color: #444444;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.9rem;
+	font-weight: normal;
+    display: block;
+}
+.caidan_item_wenzi2{
+	float: right;
+	margin-right: 0.26rem;
+	color: #444444;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.9rem;
+	font-weight: bold;
+    font-family: 'iconfont'; 
+
+}
+.caidan_item1{
+	margin-bottom: 0.40rem;
+}
+.bottom{
+	font-size: 0.28rem;
+	margin-left: 1.58rem;
+	height:0.28rem;
+	color: #9c9c9c;
+	
+}
+.bottom p{
+	margin-right: 1.7rem;
+	float: right;
+}
+.bottom span{
+	float: left;
+}
